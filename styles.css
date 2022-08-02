@@ -190,15 +190,16 @@
 
     /* hamburger menu turns into X */
     #mobile-menu.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        width: 15px;
+        transform: translate(-8px, 10px) rotate(90deg);
     }
 
     #mobile-menu.active .bar:nth-child(2) {
-        opacity: 0;
+        transform: rotate(-45deg);
     }
 
     #mobile-menu.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-
+        width: 15px;
+        transform: translateX(-2px)
     }
 }
